@@ -1,0 +1,114 @@
+.contact{
+    padding: 100px 20px 20px;
+}
+.contact-h2{
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+.contact-con{
+    display: flex;
+    align-items: center;
+}
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    animation: moveleft linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact-img{
+    height: 30px;
+    padding: 15px;
+    border: 1px solid;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+ h6{
+    font-size: 20px;
+}
+form{
+    margin: 50px auto;
+    max-width: 600px;
+    width: 80%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+    animation: moveRight linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.form-inp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+textarea, 
+.form-input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #f2f2f2;
+    outline: none;
+    color: black;
+}
+.form-input::placeholder, textarea::placeholder{
+    color: black;
+}
+textarea{
+    height: 250px;
+    overflow: auto;
+}
+.send-message{
+    font-size: 15px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-color: red;
+    border-radius: 50px;
+    width: fit-content;
+    margin-top: 10px;
+    cursor: pointer;
+}
+@keyframes moveleft{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes moveRight{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(100%);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0%);
+    }
+}
+@media(max-width: 550px){
+    .contact-con{
+        flex-direction: column;
+        align-items: start;
+    }
+    form{
+        max-width: 450px;
+    }
+}

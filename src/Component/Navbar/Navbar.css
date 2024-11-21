@@ -1,0 +1,91 @@
+.navbar{
+    padding: 0px 40px 30px;
+    height: fit-content;
+    background-color: #15202B;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar h2{
+    padding: 160px 0 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 45px;
+}
+.navbar-con{
+    max-width: 600px;
+    animation: popUp 4s linear;
+}
+.navbar h2 span{
+    color: red;
+}
+.navbar h4{
+    font-size: 22px;
+    padding: 0 0 20px;
+}
+.navbar p{
+    text-align: justify;
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.navbar button{
+    display: block;
+    margin: 20px ;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2px;
+    transition: background-color 1s, color 1s, border 1s ease-in-out;
+}
+.navbar button:hover{
+    background-color: transparent;
+    color: red;
+    border: 1px solid #ffff;
+}
+.navbar img{
+    width: 300px;
+    height: 340px;
+    margin: 40px auto;
+    display: block;
+    padding-top: 50px;
+    animation: popUp 4s linear;
+}
+@keyframes popUp{
+    0%{
+        opacity: 0;
+        scale: 0;
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
+@media(max-width: 550px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar h2{
+        font-size: 30px;
+        line-height: 34px;
+        padding-bottom: 5px;
+    }
+    .navbar h4{
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+    .navbar button{
+        padding: 10px 20px;
+        letter-spacing: 2px;
+    }
+    .navbar img{
+        width: 300px;
+        height: 300px;
+        padding-bottom: 30px;
+        padding-top: 0;
+        margin-top: 20px;
+    }
+}
