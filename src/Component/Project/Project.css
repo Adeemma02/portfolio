@@ -32,6 +32,9 @@
 .project-image{
     width: 100%;
 }
+.project-image:hover{
+    scale: 1.1;
+}
 .pro{
     display: flex;
     align-items: center;

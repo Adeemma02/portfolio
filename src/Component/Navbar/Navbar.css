@@ -14,7 +14,7 @@
 }
 .navbar-con{
     max-width: 600px;
-    animation: popUp 4s linear;
+    animation: popUp 1.2s linear;
 }
 .navbar h2 span{
     color: red;
@@ -29,7 +29,7 @@
     font-style: italic;
     padding-bottom: 10px;
 }
-.navbar button{
+.button{
     display: block;
     margin: 20px ;
     padding: 20px 40px;
@@ -40,6 +40,15 @@
     border: none;
     letter-spacing: 2px;
     transition: background-color 1s, color 1s, border 1s ease-in-out;
+}
+.bt{
+    text-decoration: none;
+    list-style: none;
+    background-color: red;
+    transition: background-color 1s;
+}
+.bt:hover{
+    background-color: transparent;
 }
 .navbar button:hover{
     background-color: transparent;
@@ -52,7 +61,7 @@
     margin: 40px auto;
     display: block;
     padding-top: 50px;
-    animation: popUp 4s linear;
+    animation: popUp 1.2s linear;
 }
 @keyframes popUp{
     0%{
@@ -67,6 +76,9 @@
 @media(max-width: 550px){
     .navbar{
         flex-direction: column;
+    }
+    .navbar p{
+        font-size: 14px;
     }
     .navbar h2{
         font-size: 30px;

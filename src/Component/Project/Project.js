@@ -2,8 +2,8 @@ import React from 'react'
 import './Project.css'
 import Nurse from '../Asset//Nurse.png'
 import Nacos from '../Asset/Nacos.png'
-import todo from '../Asset/cons.png'
-import spacex from '../Asset/spacex.png'
+import movie from '../Asset/Movie.png'
+import pizza from '../Asset/Pizza.png'
 import ecom from '../Asset/ecom.png'
 
 const Project = () => {
@@ -40,11 +40,11 @@ const Project = () => {
            </div>
         </div>
         <div className='project-con-item'>
-         <img src={todo}  className='project-image'/>
+         <img src={movie}  className='project-image'/>
            <div className='pro'>
-            <div className='project-title'>To-DO APP</div>
+            <div className='project-title'>Movie APP</div>
             <a
-        href="https://consult-page.vercel.app/"  
+        href="https://movie-app-lyart-rho.vercel.app/"  
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
@@ -54,10 +54,17 @@ const Project = () => {
            </div>
         </div>
         <div className='project-con-item'>
-         <img src={spacex}  className='project-image'/>
+         <img src={pizza}  className='project-image'/>
            <div className='pro'>
-            <div className='project-title'>Space X Clone</div>
-            <div className='project-titl'>(Still developing)</div>
+            <div className='project-title'>Pizza APP</div>
+            <a
+        href="https://pizza-theta-flame.vercel.app/"  
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none" }}
+        className='project-link'
+      > View Demo
+      </a>
            </div>
         </div>
         <div className='project-con-item'>

@@ -27,7 +27,6 @@
 }
 .skill-item p{
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 25px;
 }
@@ -51,9 +50,9 @@
 }
 .skill .skill-logo img{
     height: 100%;
-    /* transition: transform 0.3s ease; */
+    transition: transform 0.3s ease;
 }
-/* @keyframes moveleft{
+@keyframes moveleft{
     from{
         opacity: 0;
         scale: 0.5;
@@ -64,7 +63,7 @@
         scale: 1;
         transform: translateX(0%);
     }
-} */
+}
 @keyframes logoRight {
     0%{
         transform: translateX(100%);
@@ -80,7 +79,10 @@
 
 @media(max-width: 550px){
     .skill{
-        padding: 50px;
+        padding: 20px;
+    }
+    .skill-item p{
+        font-size: 13px;
     }
     .slill-item-con{
         gap: 40px;
