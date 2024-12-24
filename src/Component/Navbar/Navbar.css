@@ -11,6 +11,7 @@
     font-size: 40px;
     letter-spacing: 2px;
     line-height: 45px;
+    font-family: 'Roboto', sans-serif;
 }
 .navbar-con{
     max-width: 600px;
@@ -22,12 +23,15 @@
 .navbar h4{
     font-size: 22px;
     padding: 0 0 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 .navbar p{
     text-align: justify;
     font-size: 18px;
     font-style: italic;
     padding-bottom: 10px;
+    line-height: 25px;
+    font-family: 'Work Sans', sans-serif;
 }
 .button{
     display: block;
@@ -39,6 +43,8 @@
     cursor: pointer;
     border: none;
     letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     transition: background-color 1s, color 1s, border 1s ease-in-out;
 }
 .bt{

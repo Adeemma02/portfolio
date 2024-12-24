@@ -5,6 +5,7 @@
     display: block;
     margin: 0 auto;
     padding: 50px 0 40px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .footer-img{
     margin-bottom: 10px;
@@ -18,7 +19,7 @@
 }
 .footer-h3{
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+   
     letter-spacing: 2px;
 }
 .footer-h3 span{

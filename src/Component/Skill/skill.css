@@ -1,12 +1,14 @@
 .skill{
     padding:  20px 20px ;
     overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .skill-h2{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 40px;
     margin-bottom:  40px 40px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .slill-item-con{
     display: flex;
@@ -24,11 +26,13 @@
 .skill-item h3{
     padding-bottom: 10px;
     font-style: oblique;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .skill-item p{
     text-align: justify;
     font-size: 18px;
     line-height: 25px;
+    font-family: 'Work Sans', sans-serif;
 }
 .skill-h3{
     text-align: center;

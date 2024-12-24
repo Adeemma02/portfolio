@@ -17,16 +17,20 @@
     border: none;
     z-index: 10;
     animation: header-shadow 2s infinite;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal
 }
 .logo{
     padding: 0 15px;
     border-radius: 50px;
     font-size: 18px;
     letter-spacing: 1px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 .header .logo span{
     color: red;
+
 }
 .header-ul{
     display: flex;
