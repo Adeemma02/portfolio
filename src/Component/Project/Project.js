@@ -30,7 +30,7 @@ const Project = () => {
            <div className='pro'>
             <div className='project-title'>Nacos Website</div>
             <a
-        href="https://nacos-black.vercel.app/"  
+        href="https://nacos-orcin.vercel.app/"  
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
