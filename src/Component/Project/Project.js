@@ -5,12 +5,28 @@ import Nacos from '../Asset/Nacos.png'
 import movie from '../Asset/Movie.png'
 import pizza from '../Asset/Pizza.png'
 import ecom from '../Asset/ecom.png'
+import weather from '../Asset/weather.png'
 
 const Project = () => {
   return (
     <div className='Project'>
         <h2 className='project-h2'>Explore some of <span>our Projects</span></h2>
         <div className='project-con'>
+        <div className='project-con-item'>
+         <img src={weather}  className='project-image'/>
+           <div className='pro'>
+           <div className='project-title init'>E-Commerce Website</div>
+           <div className='project-titl'>(Moblie View)</div>
+            <a
+        href="https://adeemma02.github.io/weather-app/"  
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none" }}
+        className='project-link'
+      > View Demo
+      </a>
+           </div>
+        </div>
         <div className='project-con-item'>
          <img src={Nurse}  className='project-image'/>
            <div className='pro'>
