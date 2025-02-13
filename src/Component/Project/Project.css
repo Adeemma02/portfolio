@@ -36,6 +36,7 @@
 }
 .project-image{
     width: 100%;
+    height: 200px;
 }
 .project-image:hover{
     scale: 1.1;

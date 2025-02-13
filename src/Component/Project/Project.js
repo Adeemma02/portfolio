@@ -5,7 +5,7 @@ import Nacos from '../Asset/Nacos.png'
 import movie from '../Asset/Movie.png'
 import pizza from '../Asset/Pizza.png'
 import ecom from '../Asset/ecom.png'
-import weather from '../Asset/weather.png'
+import weather from '../Asset/weather-app.jpg'
 
 const Project = () => {
   return (
@@ -15,8 +15,7 @@ const Project = () => {
         <div className='project-con-item'>
          <img src={weather}  className='project-image'/>
            <div className='pro'>
-           <div className='project-title init'>E-Commerce Website</div>
-           <div className='project-titl'>(Moblie View)</div>
+           <div className='project-title init'>Weather App <br/>(Moblie view)  </div>
             <a
         href="https://adeemma02.github.io/weather-app/"  
         target="_blank"
