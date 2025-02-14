@@ -1,10 +1,10 @@
 import React from 'react'
 import './skill.css'
-import Api from '../Asset/Api.png'
+// import Api from '../Asset/Api.png'
 // import Bitbucket from '../Asset/Bitbucket.png'
 import Css from '../Asset/css-logo.png'
 // import Git from '../Asset/Git.png'
-import Github from '../Asset/Github.png'
+// import Github from '../Asset/Github.png'
 // import Gitlab from '../Asset/Gitlab.png'
 import Html from '../Asset/html-logo.png'
 import Bootstrap from '../Asset/bootsrap-logo.png'
@@ -43,15 +43,14 @@ const Skill = () => {
       </div>
      <h2 className='skill-h3'>Technologies i've worked with</h2>
     <div className='skill-logo'>
-        <img src={Html} className='skill-img'/>
-        <img src={Css} className='skill-img'/>
-        <img src={Bootstrap} className='skill-img'/>
-        <img src={Tailwind} className='skill-img'/>
-        <img src={Javascript} className='skill-img'/>
-        <img src={Wordpress} className='skill-img'/>
-        <img src={Reactlogo} className='skill-img'/>
-        <img src={Nextjs} className='skill-img'/>
-        
+        <img src={Html} className='skill-img' alt='html'/>
+        <img src={Css} className='skill-img' alt='css'/>
+        <img src={Bootstrap} className='skill-img' alt='bootstrap'/>
+        <img src={Tailwind} className='skill-img' alt='tailwind'/>
+        <img src={Javascript} className='skill-img' alt='javascript'/>
+        <img src={Wordpress} className='skill-img' alt='wordpress'/>
+        <img src={Reactlogo} className='skill-img' alt='react'/>
+        <img src={Nextjs} className='skill-img' alt='nextjs'/>
       </div>
     </div>
   )
