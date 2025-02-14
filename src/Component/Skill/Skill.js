@@ -1,15 +1,18 @@
 import React from 'react'
 import './skill.css'
 import Api from '../Asset/Api.png'
-import Bitbucket from '../Asset/Bitbucket.png'
-import Css from '../Asset/Css.png'
-import Git from '../Asset/Git.png'
+// import Bitbucket from '../Asset/Bitbucket.png'
+import Css from '../Asset/css-logo.png'
+// import Git from '../Asset/Git.png'
 import Github from '../Asset/Github.png'
-import Gitlab from '../Asset/Gitlab.png'
-import Html from '../Asset/Html.png'
-import Javascript from '../Asset/Javascript.png'
-import Reactlogo from '../Asset/React.png'
-import Tailwind from '../Asset/Tailwind.png'
+// import Gitlab from '../Asset/Gitlab.png'
+import Html from '../Asset/html-logo.png'
+import Bootstrap from '../Asset/bootsrap-logo.png'
+import Nextjs from '../Asset/nextjs-logo.png'
+import Wordpress from '../Asset/wordpress-logo.png'
+import Javascript from '../Asset/javascript.png'
+import Reactlogo from '../Asset/react-logo.png'
+import Tailwind from '../Asset/tailwind-logo.png'
 
 const Skill = () => {
   return (
@@ -40,16 +43,17 @@ const Skill = () => {
       </div>
      <h2 className='skill-h3'>Technologies i've worked with</h2>
     <div className='skill-logo'>
-        {/* <img src={Api} className='skill-img' /> */}
-        {/* <img src={Bitbucket} className='skill-img'/> */}
-        <img src={Css} className='skill-img'/>
-        {/* <img src={Git} className='skill-img'/> */}
-        <img src={Github} className='skill-img'/>
-        {/* <img src={Gitlab} className='skill-img'/> */}
         <img src={Html} className='skill-img'/>
-        <img src={Javascript} className='skill-img'/>
-        <img src={Reactlogo} className='skill-img'/>
+        <img src={Css} className='skill-img'/>
+        <img src={Github} className='skill-img'/>
+        <img src={Bootstrap} className='skill-img'/>
         <img src={Tailwind} className='skill-img'/>
+        <img src={Javascript} className='skill-img'/>
+        <img src={Api} className='skill-img' />
+        <img src={Wordpress} className='skill-img'/>
+        <img src={Reactlogo} className='skill-img'/>
+        <img src={Nextjs} className='skill-img'/>
+        
       </div>
     </div>
   )
