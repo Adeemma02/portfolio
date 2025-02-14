@@ -48,7 +48,7 @@ const Skill = () => {
         <img src={Bootstrap} className='skill-img' alt='bootstrap'/>
         <img src={Tailwind} className='skill-img' alt='tailwind'/>
         <img src={Javascript} className='skill-img' alt='javascript'/>
-        <img src={Wordpress} className='skill-img' alt='wordpress'/>
+        <img src={Wordpress} className='skill-img' alt='wordpress-logo'/>
         <img src={Reactlogo} className='skill-img' alt='react'/>
         <img src={Nextjs} className='skill-img' alt='nextjs'/>
       </div>
