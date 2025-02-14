@@ -45,11 +45,9 @@ const Skill = () => {
     <div className='skill-logo'>
         <img src={Html} className='skill-img'/>
         <img src={Css} className='skill-img'/>
-        <img src={Github} className='skill-img'/>
         <img src={Bootstrap} className='skill-img'/>
         <img src={Tailwind} className='skill-img'/>
         <img src={Javascript} className='skill-img'/>
-        <img src={Api} className='skill-img' />
         <img src={Wordpress} className='skill-img'/>
         <img src={Reactlogo} className='skill-img'/>
         <img src={Nextjs} className='skill-img'/>
