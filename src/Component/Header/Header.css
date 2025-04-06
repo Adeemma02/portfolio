@@ -39,6 +39,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    margin-right: 20px;
 }
 .link{
     text-decoration: none;
@@ -56,6 +57,9 @@
 }
 .header-ul:active li:hover{
     color: red;
+}
+.menu-box{
+    display: none;
 }
 @keyframes header-shadow {
     0%{

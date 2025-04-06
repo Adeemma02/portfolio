@@ -20,7 +20,7 @@ const Skill = () => {
       <h2 className='skill-h2'>My Skills</h2>
        {/* <hr /> */}
       <div className='slill-item-con'>
-      <div className='skill-item ani'>
+      <div className='skill-item ani'> 
     <h3>1. Core Technologies</h3> 
     <p>My foundation in mastering Core Technologies like HTML 5, CSS, JAVASCRIPT (ES6+) that form the backbone of modern web development. I  Create engaging and responsive user interfaces for websites and web applications which are mobile responsive using css.  I use JavaScript to add interactivity to web pages, such as form validation, animations, and user-driven events.  They also provide a solid foundation for integrating advanced frameworks and tools.</p>
     </div>

@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link to='/contact ' className='bt'><button className='button'>Contact Us </button></Link>
     </div>
       
-        <img src={Portfolio} />
+        <img src={Portfolio} alt='portfolio-image' /> 
     </div>
   )
 }

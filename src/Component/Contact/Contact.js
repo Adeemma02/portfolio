@@ -100,6 +100,7 @@ const Contact = () => {
              onChange={handleChange}/>
             <button className='send-message'>Send message</button>
             </div>
+            {submitted && <p className='text-white '>{handleSubmit}</p>}
         </form>
         </div>
     </div>

@@ -10,10 +10,10 @@ import weather from '../Asset/weather-app.jpg'
 const Project = () => {
   return (
     <div className='Project'>
-        <h2 className='project-h2'>Explore some of <span>our Projects</span></h2>
+        <h2 className='project-h2'>Explore some of <span>My Projects</span></h2>
         <div className='project-con'>
         <div className='project-con-item'>
-         <img src={weather}  className='project-image'/>
+         <img src={weather} alt='weather-image' className='project-image'/>
            <div className='pro'>
            <div className='project-title init'>Weather App <br/>(Moblie view)  </div>
             <a
@@ -27,7 +27,7 @@ const Project = () => {
            </div>
         </div>
         <div className='project-con-item'>
-         <img src={Nurse}  className='project-image'/>
+         <img src={Nurse} alt='nurse-image' className='project-image'/>
            <div className='pro'>
             <div className='project-title'>Nursing Website</div>
             <a
@@ -41,7 +41,7 @@ const Project = () => {
            </div>
         </div>
         <div className='project-con-item'>
-         <img src={Nacos}  className='project-image'/>
+         <img src={Nacos} alt='nacos-image' className='project-image'/>
            <div className='pro'>
             <div className='project-title'>Nacos Website</div>
             <a
@@ -55,7 +55,7 @@ const Project = () => {
            </div>
         </div>
         <div className='project-con-item'>
-         <img src={movie}  className='project-image'/>
+         <img src={movie} alt='movie-img' className='project-image'/>
            <div className='pro'>
             <div className='project-title'>Movie APP</div>
             <a
@@ -69,7 +69,7 @@ const Project = () => {
            </div>
         </div>
         <div className='project-con-item'>
-         <img src={pizza}  className='project-image'/>
+         <img src={pizza} alt='pizza-image' className='project-image'/>
            <div className='pro'>
             <div className='project-title'>Pizza APP</div>
             <a
@@ -83,7 +83,7 @@ const Project = () => {
            </div>
         </div>
         <div className='project-con-item'>
-         <img src={ecom}  className='project-image'/>
+         <img src={ecom} alt='ecom-image' className='project-image'/>
            <div className='pro'>
             <div className='project-title init'>E-Commerce Website</div>
             <div className='project-titl'>(Still developing)</div>
