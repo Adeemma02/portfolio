@@ -10,7 +10,7 @@ import Html from '../Asset/html-logo.png'
 import Bootstrap from '../Asset/bootsrap-logo.png'
 import Nextjs from '../Asset/nextjs-logo.png'
 import Wordpress from '../Asset/wordpress-logo.png'
-import Javascript from '../Asset/javascript.png'
+// import Javascript from '../Asset/javascript.png'
 import Reactlogo from '../Asset/react-logo.png'
 import Tailwind from '../Asset/tailwind-logo.png'
 
@@ -47,7 +47,7 @@ const Skill = () => {
         <img src={Css} className='skill-img' alt='css'/>
         <img src={Bootstrap} className='skill-img' alt='bootstrap'/>
         <img src={Tailwind} className='skill-img' alt='tailwind'/>
-        <img src={Javascript} className='skill-img' alt='javascript'/>
+        {/* <img src={Javascript} className='skill-img' alt='javascript'/> */}
         <img src={Wordpress} className='skill-img' alt='wordpress-logo'/>
         <img src={Reactlogo} className='skill-img' alt='react'/>
         <img src={Nextjs} className='skill-img' alt='nextjs'/>
