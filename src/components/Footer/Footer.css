@@ -1,0 +1,27 @@
+.footer{
+    text-align: center;
+    width: 90%;
+    border-top: 1px solid #f2f2f2;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+     background-color: #15202b;
+}
+.footer-img{
+    margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-image{
+    height: 40px;
+    cursor: pointer;
+}
+.footer-h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.footer-h3 span{
+    color: red;
+}
